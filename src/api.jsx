@@ -6,7 +6,7 @@ const API = axios.create({
   baseURL: "https://aaubackend.onrender.com/api",
 });
 
-// Use an interceptor to attach the auth token to every request
+
 
 API.interceptors.request.use(
   (config) => {
